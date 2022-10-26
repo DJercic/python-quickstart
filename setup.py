@@ -7,14 +7,14 @@ setup(
     author="<>",
     author_email="<>@gmail.com",
     install_requires=[
-          # ... write packages that are required for the project
+        # ... write packages that are required for the project
     ],
     extras_require={
-        'dev': [
-            'pytest',
-            'black',
+        "dev": [
+            "pytest",
+            "black",
         ]
     },
-    package_dir={"quick": "src"},
-    packages=["quick"],
+    package_dir={"": "src"},
+    packages=[],
 )
